@@ -1,0 +1,38 @@
+# Shopify App Configuration
+name = "shopify-photography"
+client_id = "your-client-id-here"
+application_url = "https://your-app-domain.com"
+embedded = true
+
+[access_scopes]
+# Add the scopes your app needs
+scopes = "write_products,read_orders,write_orders"
+
+[auth]
+redirect_urls = [
+  "https://your-app-domain.com/auth/callback",
+  "https://your-app-domain.com/auth/shopify/callback"
+]
+
+[webhooks]
+api_version = "2024-07"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "your-dev-store.myshopify.com"
+
+[oxygen]
+# Oxygen deployment configuration
+project_id = "your-oxygen-project-id"
+primary_domain = "your-app-domain.com"
+
+[[oxygen.domains]]
+domain = "your-app-domain.com"
+primary = true
+
+[[oxygen.domains]]
+domain = "www.your-app-domain.com"
+primary = false
