@@ -42,19 +42,28 @@ const CustomOrderPage: React.FC = () => {
 
   const services: ServiceOption[] = [
     {
+      id: 'photography',
+      name: 'Professional Photography Session',
+      description: 'Book a photography session with Jenn - portraits, events, commercial work',
+      price: 150,
+      estimatedTime: '1-3 hours',
+      icon: <Camera className="h-6 w-6" />,
+      features: ['Portrait sessions', 'Event photography', 'Commercial work', 'Custom packages']
+    },
+    {
       id: 'restoration',
       name: 'Photo Restoration',
       description: 'Bring old, damaged photos back to life',
-      price: 25,
+      price: 49,
       estimatedTime: '2-5 days',
-      icon: <Camera className="h-6 w-6" />,
+      icon: <Sparkles className="h-6 w-6" />,
       features: ['Remove scratches and tears', 'Color correction', 'Digital noise reduction', 'High-resolution output']
     },
     {
       id: 'editing',
       name: 'Photo Editing',
       description: 'Professional editing and enhancement',
-      price: 15,
+      price: 39,
       estimatedTime: '1-3 days',
       icon: <Palette className="h-6 w-6" />,
       features: ['Color grading', 'Background removal', 'Object removal', 'Skin retouching']
@@ -165,11 +174,11 @@ const CustomOrderPage: React.FC = () => {
           className="text-center space-y-6 mb-12"
         >
           <h1 className="text-4xl md:text-5xl font-bold font-display">
-            Custom <span className="text-primary-600 font-extrabold">Order</span>
+            Book <span className="text-primary-600 font-extrabold">Photography Session</span>
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Upload your photos and tell us what you need. We'll provide a detailed quote 
-            and timeline for your custom photography services.
+            Book a photography session with Jenn or upload your photos for restoration/editing services. 
+            We'll provide a detailed quote and timeline for your custom photography needs.
           </p>
         </motion.div>
 

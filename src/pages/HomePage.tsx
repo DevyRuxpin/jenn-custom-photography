@@ -28,37 +28,44 @@ const HomePage: React.FC = () => {
   const features = [
     {
       icon: <Camera className="h-8 w-8" />,
-      title: "Professional Restoration",
-      description: "Expert photo restoration using cutting-edge AI technology",
+      title: "Professional Photography",
+      description: "Jenn captures stunning portraits, events, and special moments with professional equipment",
+      highlight: "Live Sessions"
+    },
+    {
+      icon: <Sparkles className="h-8 w-8" />,
+      title: "Photo Restoration",
+      description: "Expert restoration of old, damaged photos using cutting-edge AI technology",
       highlight: "4K Quality"
     },
     {
       icon: <Palette className="h-8 w-8" />,
       title: "Creative Editing",
-      description: "Artistic transformations that exceed expectations",
+      description: "Artistic post-processing and transformations that exceed expectations",
       highlight: "Award-Winning"
     },
     {
       icon: <Download className="h-8 w-8" />,
       title: "Digital & Print",
-      description: "Multiple formats delivered worldwide",
+      description: "Multiple formats delivered worldwide - from digital files to premium prints",
       highlight: "24hr Delivery"
-    },
-    {
-      icon: <Shield className="h-8 w-8" />,
-      title: "Secure & Private",
-      description: "Your memories are handled with utmost care",
-      highlight: "GDPR Compliant"
     }
   ];
 
   const services = [
     {
+      title: "Professional Photography Sessions",
+      description: "Jenn personally captures your special moments with professional equipment and artistic vision. From portraits to events, every session is tailored to your unique story.",
+      price: "Starting at $150",
+      features: ["Portrait Sessions", "Event Photography", "Commercial Work", "Custom Packages"],
+      icon: <Camera className="h-6 w-6" />
+    },
+    {
       title: "Photo Restoration",
       description: "Bring old, damaged photos back to life with our expert restoration services using advanced AI technology.",
       price: "Starting at $49",
       features: ["Damage Repair", "Color Correction", "Detail Enhancement", "High-Resolution Output"],
-      icon: <Camera className="h-6 w-6" />
+      icon: <Sparkles className="h-6 w-6" />
     },
     {
       title: "Creative Photo Editing",
@@ -66,13 +73,6 @@ const HomePage: React.FC = () => {
       price: "Starting at $39",
       features: ["Color Grading", "Background Removal", "Object Manipulation", "Artistic Effects"],
       icon: <Palette className="h-6 w-6" />
-    },
-    {
-      title: "Custom Design & Prints",
-      description: "Create stunning photo albums, custom wall art, and digital composites with premium printing.",
-      price: "Starting at $79",
-      features: ["Album Design", "Wall Art Creation", "Digital Composites", "Premium Prints"],
-      icon: <Sparkles className="h-6 w-6" />
     }
   ];
 
@@ -150,7 +150,7 @@ const HomePage: React.FC = () => {
                   transition={{ duration: 0.8, delay: 0.6 }}
                   className="text-2xl md:text-3xl font-semibold text-navy"
                 >
-                  Transform Your Memories Into Art
+                  Professional Photography & Photo Services
                 </motion.h2>
 
                 <motion.p
@@ -159,8 +159,8 @@ const HomePage: React.FC = () => {
                   transition={{ duration: 0.8, delay: 0.8 }}
                   className="text-xl text-navy max-w-3xl mx-auto leading-relaxed"
                 >
-                  Professional photo restoration, creative editing, and personalized design services
-                  that bring your vision to life with cutting-edge technology.
+                  Professional photography sessions, photo restoration, creative editing, and personalized design services
+                  that capture and enhance your most precious moments.
                 </motion.p>
               </div>
 

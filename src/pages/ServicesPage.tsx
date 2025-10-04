@@ -19,8 +19,22 @@ import SEO from '../components/SEO';
 const ServicesPage: React.FC = () => {
   const services = [
     {
-      id: 'restoration',
+      id: 'photography',
       icon: <Camera className="h-8 w-8" />,
+      title: 'Professional Photography Sessions',
+      description: 'Jenn personally captures your special moments with professional equipment and artistic vision. From portraits to events, every session is tailored to your unique story.',
+      price: 'Starting at $150',
+      time: '1-3 hours',
+      features: [
+        'Portrait photography',
+        'Event photography',
+        'Commercial photography',
+        'Custom session packages'
+      ]
+    },
+    {
+      id: 'restoration',
+      icon: <Sparkles className="h-8 w-8" />,
       title: 'Photo Restoration',
       description: 'Bring old, damaged photos back to life with our expert restoration services using advanced AI technology.',
       price: 'Starting at $49',
@@ -45,29 +59,15 @@ const ServicesPage: React.FC = () => {
         'Object removal/addition',
         'Skin retouching'
       ]
-    },
-    {
-      id: 'creative',
-      icon: <Sparkles className="h-8 w-8" />,
-      title: 'Creative Design',
-      description: 'Custom design services including photo albums, wall art, and digital composites.',
-      price: 'Starting at $79',
-      time: '3-7 days',
-      features: [
-        'Album design and layout',
-        'Wall art creation',
-        'Digital composites',
-        'Premium printing options'
-      ]
     }
   ];
 
   const process = [
     {
       step: 1,
-      title: 'Upload Your Photos',
-      description: 'Send us your photos through our secure upload system or contact us directly.',
-      icon: <Download className="h-6 w-6" />
+      title: 'Book Your Session',
+      description: 'Schedule your photography session or upload existing photos for restoration/editing services.',
+      icon: <Camera className="h-6 w-6" />
     },
     {
       step: 2,
@@ -78,7 +78,7 @@ const ServicesPage: React.FC = () => {
     {
       step: 3,
       title: 'Professional Work',
-      description: 'Our experts work their magic using cutting-edge tools and techniques.',
+      description: 'Jenn captures your moments or our experts work their magic using cutting-edge tools and techniques.',
       icon: <Sparkles className="h-6 w-6" />
     },
     {

@@ -116,10 +116,10 @@ const PortfolioPage: React.FC = () => {
           className="text-center space-y-6 mb-12"
         >
           <h1 className="text-4xl md:text-5xl font-bold font-display">
-            <span className="text-primary-600 font-extrabold">Jenn's Portfolio</span>
+            <span className="text-primary-600 font-extrabold">Jenn's Photography Portfolio</span>
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Explore our collection of professional photography work, showcasing 
+            Explore our collection of professional photography sessions, restoration work, and creative projects, showcasing 
             our expertise in various styles and techniques.
           </p>
         </motion.div>

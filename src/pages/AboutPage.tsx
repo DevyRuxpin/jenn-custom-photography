@@ -27,7 +27,7 @@ const AboutPage: React.FC = () => {
       name: "Jenn Custom",
       role: "Lead Photographer & Founder",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=300&h=300&fit=crop&crop=face",
-      bio: "With over 8 years of experience in photography and digital art, Jenn specializes in bringing old memories back to life and creating stunning visual transformations."
+      bio: "With over 8 years of experience, Jenn is a professional photographer who captures stunning portraits and events, while also specializing in photo restoration and digital art. Her artistic vision brings both new memories and old ones to life."
     },
     {
       name: "Michael Chen",
@@ -84,8 +84,8 @@ const AboutPage: React.FC = () => {
                 About <span className="text-primary-dark">Jenn Custom Photography</span>
               </h1>
               <p className="text-xl text-navy max-w-3xl mx-auto leading-relaxed">
-                We are passionate photographers and digital artists dedicated to preserving 
-                and enhancing your most precious memories through professional photo services.
+                We are passionate photographers and digital artists dedicated to capturing new memories 
+                and preserving existing ones through professional photography sessions and photo services.
               </p>
             </motion.div>
           </div>
@@ -251,9 +251,9 @@ const AboutPage: React.FC = () => {
                   has grown into a trusted service for clients worldwide.
                 </p>
                 <p>
-                  We specialize in photo restoration, creative editing, and custom design services. 
+                  We specialize in professional photography sessions, photo restoration, creative editing, and custom design services. 
                   Our team combines traditional photography techniques with cutting-edge digital tools 
-                  to deliver results that exceed expectations.
+                  to capture new memories and deliver results that exceed expectations.
                 </p>
                 <p>
                   Every project is handled with care, attention to detail, and a commitment to quality 
