@@ -139,7 +139,7 @@ const HomePage: React.FC = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.4 }}
-                  className="text-5xl md:text-7xl font-extrabold font-display leading-tight text-navy"
+                  className="text-heading-primary leading-tight"
                 >
                   Jenn Custom Photography
                 </motion.h1>
@@ -148,7 +148,7 @@ const HomePage: React.FC = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.6 }}
-                  className="text-2xl md:text-3xl font-semibold text-navy"
+                  className="text-heading-secondary"
                 >
                   Professional Photography & Photo Services
                 </motion.h2>
@@ -157,7 +157,7 @@ const HomePage: React.FC = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.8 }}
-                  className="text-xl text-navy max-w-3xl mx-auto leading-relaxed"
+                  className="text-body-primary max-w-3xl mx-auto"
                 >
                   Professional photography sessions, photo restoration, creative editing, and personalized design services
                   that capture and enhance your most precious moments.
@@ -215,10 +215,10 @@ const HomePage: React.FC = () => {
               className="text-center space-y-16"
             >
               <div className="space-y-4">
-                <h2 className="text-4xl md:text-5xl font-bold font-display text-navy">
+                <h2 className="text-heading-secondary">
                   Why Choose Jenn Custom Photography?
                 </h2>
-                <p className="text-xl text-navy max-w-3xl mx-auto">
+                <p className="text-body-primary max-w-3xl mx-auto">
                   Experience the difference with our unparalleled expertise and dedication to perfection.
                 </p>
               </div>
@@ -267,7 +267,7 @@ const HomePage: React.FC = () => {
               className="text-center space-y-16"
             >
               <div className="space-y-4">
-                <h2 className="text-4xl md:text-5xl font-bold font-display text-navy">
+                <h2 className="text-heading-secondary">
                   Our Premium Services
                 </h2>
                 <p className="text-xl text-navy max-w-3xl mx-auto">

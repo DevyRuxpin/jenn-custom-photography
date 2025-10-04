@@ -15,7 +15,7 @@
   }
 
       body {
-        @apply text-slate-900;
+        color: #000000; /* Pure black for maximum contrast */
         font-feature-settings: "rlig" 1, "calt" 1;
         font-family: 'Inter', system-ui, -apple-system, sans-serif;
         overflow-x: hidden;
@@ -26,6 +26,7 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         min-height: 100vh;
+        font-weight: 600; /* Increased font weight for better visibility */
       }
 
       /* Remove any dark overlays - show the studio background */
@@ -269,13 +270,52 @@
         font-weight: 700;
       }
 
-      .overlay-solid-white {
-        background: #ffffff;
-        border: 2px solid rgba(0, 0, 0, 0.15);
-        border-radius: 1rem;
-        padding: 1rem;
-        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-      }
+          .overlay-solid-white {
+            background: #ffffff;
+            border: 2px solid rgba(0, 0, 0, 0.15);
+            border-radius: 1rem;
+            padding: 1rem;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+          }
+
+          /* 2025 High-Contrast Elegant Typography Utilities */
+          .text-heading-primary {
+            @apply text-elegant-primary text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold;
+            line-height: 1.1;
+          }
+
+          .text-heading-secondary {
+            @apply text-elegant-secondary text-3xl md:text-4xl lg:text-5xl font-bold;
+            line-height: 1.2;
+          }
+
+          .text-heading-tertiary {
+            @apply text-elegant-secondary text-2xl md:text-3xl font-semibold;
+            line-height: 1.3;
+          }
+
+          .text-body-primary {
+            @apply text-elegant-secondary text-xl md:text-2xl leading-relaxed;
+            font-weight: 600;
+          }
+
+          .text-body-secondary {
+            @apply text-elegant-accent text-lg md:text-xl leading-relaxed;
+            font-weight: 500;
+          }
+
+          .text-caption {
+            @apply text-elegant-muted text-base md:text-lg;
+            font-weight: 500;
+          }
+
+          .text-link-elegant {
+            @apply text-elegant-brand hover:text-elegant-gold transition-colors duration-300 font-medium;
+          }
+
+          .text-accent-elegant {
+            @apply text-elegant-gold font-semibold;
+          }
 
           .section-solid-bg {
             background: rgba(255, 255, 255, 0.08);
@@ -470,36 +510,67 @@
     color: #059669;
   }
 
-  /* 2025 Elite Text Styles - Dark for Bright Backgrounds */
-  .text-elite {
-    color: #1e293b;
-    text-shadow: 0 2px 4px rgba(255, 255, 255, 0.8);
-    font-weight: 700;
-  }
+    /* 2025 High-Contrast Elegant Text Color Scheme */
+    .text-elegant-primary {
+      color: #000000; /* Pure black for maximum contrast */
+      font-weight: 700;
+      text-shadow: 0 1px 3px rgba(255, 255, 255, 0.8);
+    }
 
-  .text-luxury {
-    color: #92400e;
-    text-shadow: 0 2px 4px rgba(255, 255, 255, 0.8);
-    font-weight: 700;
-  }
+    .text-elegant-secondary {
+      color: #1a202c; /* Very dark gray for strong contrast */
+      font-weight: 600;
+      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6);
+    }
 
-  .text-sophisticated {
-    color: #065f46;
-    text-shadow: 0 2px 4px rgba(255, 255, 255, 0.8);
-    font-weight: 700;
-  }
+    .text-elegant-accent {
+      color: #2d3748; /* Dark gray with good contrast */
+      font-weight: 600;
+      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5);
+    }
 
-  .text-primary-dark {
-    color: #1e40af;
-    text-shadow: 0 2px 4px rgba(255, 255, 255, 0.8);
-    font-weight: 700;
-  }
+    .text-elegant-muted {
+      color: #4a5568; /* Medium dark gray for readability */
+      font-weight: 500;
+      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.4);
+    }
 
-  .text-navy {
-    color: #0f172a;
-    text-shadow: 0 2px 4px rgba(255, 255, 255, 0.8);
-    font-weight: 700;
-  }
+    .text-elegant-brand {
+      color: #1e40af; /* Strong blue for brand elements */
+      font-weight: 700;
+      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.7);
+    }
+
+    .text-elegant-gold {
+      color: #d97706; /* Rich amber/gold for accents */
+      font-weight: 700;
+      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.7);
+    }
+
+    /* Legacy support for existing classes - High Contrast */
+    .text-elite, .text-navy {
+      color: #000000;
+      font-weight: 800;
+      text-shadow: 0 2px 4px rgba(255, 255, 255, 0.9);
+    }
+
+    .text-luxury {
+      color: #d97706;
+      font-weight: 700;
+      text-shadow: 0 1px 3px rgba(255, 255, 255, 0.8);
+    }
+
+    .text-sophisticated {
+      color: #1e40af;
+      font-weight: 700;
+      text-shadow: 0 1px 3px rgba(255, 255, 255, 0.8);
+    }
+
+    .text-primary-dark {
+      color: #1e40af;
+      font-weight: 700;
+      text-shadow: 0 1px 3px rgba(255, 255, 255, 0.8);
+    }
 
   /* High Contrast Text Overlays */
   .text-overlay-high-contrast {
