@@ -444,24 +444,24 @@ Made with ❤️ by the Jenn Custom Photography Team
 <div align="center">
 
 ![Homepage](screenshots/home.png)
-*Homepage with hero section and features*
+*Homepage with professional photography hero and studio background*
 
 ![Services](screenshots/services.png)
-*Services page with detailed offerings*
+*Services page highlighting photography sessions and photo restoration*
 
 ![Photography](screenshots/photography.png)
-*Photography portfolio with professional gallery*
+*Photography portfolio showcasing professional work and gallery*
 
 ![About](screenshots/about.png)
-*About page with company information*
+*About page with team information and company story*
 
 ![Contact](screenshots/contact.png)
-*Contact page with form and information*
+*Contact page with form and business information*
 
 ![Products](screenshots/products.png)
-*Products page with e-commerce functionality*
+*Products page with photography services and packages*
 
 ![Custom Order](screenshots/custom-order.png)
-*Custom order form with file upload*
+*Custom order form for booking photography sessions*
 
 </div>
