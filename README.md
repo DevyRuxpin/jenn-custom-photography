@@ -449,8 +449,8 @@ Made with ❤️ by the Jenn Custom Photography Team
 ![Services](screenshots/services.png)
 *Services page with detailed offerings*
 
-![Portfolio](screenshots/portfolio.png)
-*Portfolio gallery with photo showcase*
+![Photography](screenshots/photography.png)
+*Photography portfolio with professional gallery*
 
 ![About](screenshots/about.png)
 *About page with company information*
