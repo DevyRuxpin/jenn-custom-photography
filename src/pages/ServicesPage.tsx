@@ -90,7 +90,7 @@ const ServicesPage: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <SEO
         title="Professional Photography Services - Photo Restoration, Editing & Design"
         description="Comprehensive photography services including photo restoration, creative editing, and custom design. Professional quality with fast turnaround times."

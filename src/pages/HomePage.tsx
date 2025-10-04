@@ -104,7 +104,7 @@ const HomePage: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <SEO
         title="Jenn Custom Photography - Professional Photo Restoration & Editing Services"
         description="Transform your memories with expert photo restoration, custom editing, and creative design services. Professional photography services with stunning UI/UX."

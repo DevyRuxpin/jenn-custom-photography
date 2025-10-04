@@ -62,7 +62,7 @@ const AboutPage: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <SEO
         title="About Jenn Custom Photography - Professional Photo Restoration Team"
         description="Learn about Jenn Custom Photography's passionate team of digital artists and photographers dedicated to preserving your precious memories."
