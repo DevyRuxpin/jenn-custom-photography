@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Manrope:wght@300;400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -15,9 +15,9 @@
   }
 
       body {
-        color: #000000; /* Pure black for maximum contrast */
+        color: #ffffff; /* White text for maximum contrast */
         font-feature-settings: "rlig" 1, "calt" 1;
-        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        font-family: 'Plus Jakarta Sans', 'Manrope', 'Inter', system-ui, -apple-system, sans-serif;
         overflow-x: hidden;
         position: relative;
         background-image: url('/background.jpg');
@@ -27,6 +27,7 @@
         background-attachment: fixed;
         min-height: 100vh;
         font-weight: 600; /* Increased font weight for better visibility */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), 0 0 4px rgba(0, 0, 0, 0.3);
       }
 
       /* Remove any dark overlays - show the studio background */
@@ -510,66 +511,76 @@
     color: #059669;
   }
 
-    /* 2025 High-Contrast Elegant Text Color Scheme */
+    /* 2025 Modern High-Contrast Text Color Scheme */
     .text-elegant-primary {
-      color: #000000; /* Pure black for maximum contrast */
-      font-weight: 700;
-      text-shadow: 0 1px 3px rgba(255, 255, 255, 0.8);
+      color: #ffffff; /* White text for maximum contrast */
+      font-weight: 800;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 8px rgba(0, 0, 0, 0.6);
+      font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
     .text-elegant-secondary {
-      color: #1a202c; /* Very dark gray for strong contrast */
-      font-weight: 600;
-      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6);
+      color: #ffffff; /* White text for strong contrast */
+      font-weight: 700;
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7), 0 0 6px rgba(0, 0, 0, 0.5);
+      font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
     .text-elegant-accent {
-      color: #2d3748; /* Dark gray with good contrast */
+      color: #f8fafc; /* Very light gray for readability */
       font-weight: 600;
-      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5);
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6), 0 0 5px rgba(0, 0, 0, 0.4);
+      font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
     .text-elegant-muted {
-      color: #4a5568; /* Medium dark gray for readability */
+      color: #e2e8f0; /* Light gray for secondary text */
       font-weight: 500;
-      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.4);
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), 0 0 4px rgba(0, 0, 0, 0.3);
+      font-family: 'Manrope', sans-serif;
     }
 
     .text-elegant-brand {
-      color: #1e40af; /* Strong blue for brand elements */
+      color: #60a5fa; /* Bright blue for brand elements */
       font-weight: 700;
-      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.7);
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7), 0 0 6px rgba(0, 0, 0, 0.5);
+      font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
     .text-elegant-gold {
-      color: #d97706; /* Rich amber/gold for accents */
+      color: #fbbf24; /* Bright amber/gold for accents */
       font-weight: 700;
-      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.7);
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7), 0 0 6px rgba(0, 0, 0, 0.5);
+      font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
-    /* Legacy support for existing classes - High Contrast */
+    /* Legacy support for existing classes - Modern High Contrast */
     .text-elite, .text-navy {
-      color: #000000;
+      color: #ffffff;
       font-weight: 800;
-      text-shadow: 0 2px 4px rgba(255, 255, 255, 0.9);
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 8px rgba(0, 0, 0, 0.6);
+      font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
     .text-luxury {
-      color: #d97706;
+      color: #fbbf24;
       font-weight: 700;
-      text-shadow: 0 1px 3px rgba(255, 255, 255, 0.8);
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7), 0 0 6px rgba(0, 0, 0, 0.5);
+      font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
     .text-sophisticated {
-      color: #1e40af;
+      color: #60a5fa;
       font-weight: 700;
-      text-shadow: 0 1px 3px rgba(255, 255, 255, 0.8);
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7), 0 0 6px rgba(0, 0, 0, 0.5);
+      font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
     .text-primary-dark {
-      color: #1e40af;
+      color: #60a5fa;
       font-weight: 700;
-      text-shadow: 0 1px 3px rgba(255, 255, 255, 0.8);
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7), 0 0 6px rgba(0, 0, 0, 0.5);
+      font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
   /* High Contrast Text Overlays */
