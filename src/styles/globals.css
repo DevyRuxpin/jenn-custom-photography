@@ -459,57 +459,7 @@
     transform: translateY(0);
   }
 
-  /* Pond Background Variations */
-  .pond-bg-1 {
-    background-image: url('/src/assets/photos/IMG_0392.jpeg');
-  }
 
-  .pond-bg-2 {
-    background-image: url('/src/assets/photos/IMG_0964.jpeg');
-  }
-
-  .pond-bg-3 {
-    background-image: url('/src/assets/photos/IMG_1050.jpeg');
-  }
-
-  .pond-bg-4 {
-    background-image: url('/src/assets/photos/IMG_1071.jpeg');
-  }
-
-  .pond-bg-5 {
-    background-image: url('/src/assets/photos/IMG_9657.jpeg');
-  }
-
-  .pond-bg-6 {
-    background-image: url('/src/assets/photos/IMG_9707.jpeg');
-  }
-
-  /* Enhanced glass effects for pond background */
-  .glass-pond {
-    @apply bg-white/30 backdrop-blur-lg border border-white/40 shadow-2xl;
-  }
-
-  .glass-card-pond {
-    @apply glass-pond rounded-3xl p-8 shadow-2xl;
-  }
-
-  /* High contrast glass effects */
-  .glass-dark {
-    @apply bg-black/40 backdrop-blur-lg border border-white/20 shadow-2xl;
-  }
-
-  .glass-card-dark {
-    @apply glass-dark rounded-3xl p-8 shadow-2xl;
-  }
-
-  /* Pond-themed text colors */
-  .text-pond-primary {
-    color: #1e40af;
-  }
-
-  .text-pond-accent {
-    color: #059669;
-  }
 
     /* 2025 Modern High-Contrast Text Color Scheme */
     .text-elegant-primary {
